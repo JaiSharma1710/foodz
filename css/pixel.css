@@ -1,0 +1,88 @@
+/* navigation--------------------------------------------------------- */
+#navbar {
+    flex-direction: column;
+    width: 410px;
+    margin: 0;
+    position: relative;
+}
+
+/* #navbar::before{
+    content: "";
+    width: 100%;
+    height: 311px;
+    background: url("../images/food-1932466_1920.jpg");
+    z-index: -2;
+} */
+
+#navbar ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+
+/* home---------------------------------------------------------------------- */
+#home {
+    height: 380px;
+    position: relative;
+    overflow: none;
+    padding: 0 3rem;
+    width: 410px;
+    text-align: center;
+}
+
+#home::before {
+    height: 380px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.primary {
+    margin: 0px;
+}
+
+/* services--------------------------------------------------------------------------- */
+.services-cont {
+    width: 410px;
+}
+
+#services {
+    flex-direction: column;
+}
+
+.box h2 {
+    margin: 0px;
+}
+
+#services .box {
+    margin: 0px 0 10px 0;
+}
+
+/* client---------------------------------------------------------------------- */
+#clients {
+    overflow: hidden;
+    flex-direction: column;
+}
+
+#client-section {
+    width: 410px;
+    height: 700px;
+}
+
+
+/* contact---------------------------------------------------------------------------- */
+#contact {
+    width: 410px;
+}
+
+#contact form {
+    width: 315px;
+}
+
+/* footer------------------------------------------------------------------------------------ */
+
+footer {
+    width: 410px;
+}
